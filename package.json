@@ -1,0 +1,35 @@
+{
+  "name": "rabbitmq-cloud-sender",
+  "version": "1.0.0",
+  "description": "Script simple pour envoyer des données à RabbitMQ Cloud",
+  "main": "send-to-rabbitmq.js",
+  "scripts": {
+    "start": "node send-to-rabbitmq.js",
+    "send": "node send-to-rabbitmq.js",
+    "send-camera": "node send-camera-events.js",
+    "send-events": "node send-events.js",
+    "send-cam03": "node send-cam03-two-events.js",
+    "send-dispo": "node send-events-dispo-bureau.js",
+    "listen": "node listen-rabbitmq.js",
+    "test": "node test-rabbitmq-local.js",
+    "test-cloud": "node test-rabbitmq-connection.js",
+    "test-db": "node test-postgresql-connection.js",
+    "schema": "node afficher-schema-db.js",
+    "remove-hash": "node supprimer-hash-payload.js",
+    "modify-duree": "node modifier-type-duree-presence.js",
+    "backup": "node generer-backup-complet.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "cloudamqp",
+    "message-queue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3"
+  }
+}
+

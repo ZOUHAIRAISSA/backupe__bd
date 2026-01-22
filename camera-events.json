@@ -1,0 +1,10 @@
+{
+  "events": [
+    {
+      "camera_id": "CAM_02_A",
+      "zone_id": "dc17b225-f619-473b-8bd7-72a5ca512a29",
+      "count": 1,
+      "timestamp": "2026-01-21T13:12:41.089337"
+    }
+  ]
+}
